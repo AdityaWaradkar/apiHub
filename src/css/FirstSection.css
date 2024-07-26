@@ -1,0 +1,136 @@
+.first-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #20cd8d;
+    display: flex;
+    padding: 0px 350px;
+}
+
+.text-first-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Hind", sans-serif;
+    color: white;
+}
+
+.api-hub-name {
+    width: 272px;
+    height: 60px;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.tag-line {
+    width: 493px;
+    height: 304px;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.explore, .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #231f1f;
+    color: #20cd8d;
+    height: 57px;
+    width: 185px;
+    font-size: 1.6rem;
+    border-radius: 30px;
+}
+
+.image-first-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .first-section {
+        width: 100%;
+        height: 1041px;
+        background-color: #20cd8d;
+        display: flex;
+        flex-direction: column;
+        padding: 25px 100px 25px 100px;
+    }
+
+    .text-first-section {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+        font-family: "Hind", sans-serif;
+        color: white;
+    }
+
+    .api-hub-name {
+        height: 57px;
+        width: 471px;
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    .tag-line {
+        width: 411px;
+        height: 287px;
+        font-size: 4rem;
+        line-height: 1.1;
+        text-align: start;
+    }
+
+    .explore, .contact {
+        background-color: #231f1f;
+        color: #20cd8d;
+        height: 54px;
+        width: 177px;
+        font-size: 1.5rem;
+        border-radius: 30px;
+    }
+
+    .image-first-section {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 500px;
+    }
+
+    .contact-button {
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
