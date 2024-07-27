@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .first-section {
     width: 100%;
     height: 100vh;
     background-color: #20cd8d;
     display: flex;
-    padding: 0px 350px;
+    padding: 0 10%; /* Use percentage instead of fixed pixels */
+    overflow: hidden; /* Prevent overflow */
 }
 
 .text-first-section {
