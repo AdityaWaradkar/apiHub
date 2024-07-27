@@ -39,7 +39,7 @@ function FirstSection() {
             
         </div>
         <div className="image-first-section ">
-            <div className="img bg-[url('/src/assets/images/front-section-image.png')] "></div>
+            <div className="img bg-[url('/src/assets/images/front-section-image.png')]"></div>
         </div>
     </div>
   )

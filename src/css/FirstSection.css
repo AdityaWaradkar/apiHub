@@ -69,68 +69,41 @@
 /* Responsive design */
 @media (max-width: 768px) {
     .first-section {
-        width: 100%;
-        height: 1041px;
-        background-color: #20cd8d;
-        display: flex;
         flex-direction: column;
-        padding: 25px 100px 25px 100px;
+        padding: 20px;
+        height: auto;
     }
 
     .text-first-section {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        flex-direction: column;
-        gap: 20px;
-        font-family: "Hind", sans-serif;
-        color: white;
+        align-items: center;
+        text-align: center;
     }
 
     .api-hub-name {
-        height: 57px;
-        width: 471px;
+        width: 100%;
         font-size: 2rem;
-        text-align: start;
     }
 
     .tag-line {
-        width: 411px;
-        height: 287px;
-        font-size: 4rem;
-        line-height: 1.1;
-        text-align: start;
+        width: 100%;
+        height: auto;
+        font-size: 2.5rem;
+        line-height: 1.2;
     }
 
     .explore, .contact {
-        background-color: #231f1f;
-        color: #20cd8d;
-        height: 54px;
-        width: 177px;
-        font-size: 1.5rem;
-        border-radius: 30px;
+        width: 100%;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
     }
 
     .image-first-section {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-top: 20px;
     }
 
     .img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 400px;
-        width: 500px;
-    }
-
-    .contact-button {
-        font-size: 1.3rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
     }
 }

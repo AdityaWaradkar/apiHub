@@ -46,20 +46,38 @@ span {
 }
 
 @media (max-width: 768px) {
-    .first-div {
-        display: none;
+    .main-body {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        gap: 20px;
     }
 
-    .main-body {
-        display: flex;
+    .first-div {
         justify-content: center;
         align-items: center;
-        padding: 25px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
     }
 
     .second-div {
-        justify-content: center;
-        align-items: flex-start;
-        gap: 75px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-us {
+        font-size: 2.5rem;
+    }
+
+    .phone, .email {
+        font-size: 1.5rem;
+    }
+
+    span {
+        font-size: 1.8rem;
     }
 }
